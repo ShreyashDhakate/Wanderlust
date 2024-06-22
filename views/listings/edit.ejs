@@ -16,6 +16,10 @@
             <div class="invalid-feedback">Pleases enter valid title!</div>  
         </div>
         <div class="mb-3">
+            <label for="image" class="form-label">Description</label>
+            <input type="text" name="listing[description]" value="<%=listing.description%>" class="form-control">    
+        </div>
+        <div class="mb-3">
         Original Listing Image <br>
         <img src="<%= originalImageUrl %>" style="height: 15rem; width: 20rem;">
         </div>
